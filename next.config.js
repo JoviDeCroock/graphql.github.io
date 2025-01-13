@@ -75,6 +75,10 @@ export default withLess(
           source: "/swapi-graphql/:path*",
           destination: "https://swapi-graphql.netlify.app/:path*",
         },
+        {
+          source: "/graphql",
+          destination: "https://swapi-graphql.netlify.app/graphql",
+        },
       ]
     },
   }),
