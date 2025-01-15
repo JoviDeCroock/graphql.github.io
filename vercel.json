@@ -6,6 +6,11 @@
       "permanent": true
     },
     {
+      "source": "/graphql-js/:path*",
+      "destination": "https://graphql-js.org/:path*",
+      "permanent": true
+    },
+    {
       "source": "/conf/attendee/:path*",
       "destination": "https://graphql-conf-attendee-nextjs.vercel.app/:path*",
       "statusCode": 200
